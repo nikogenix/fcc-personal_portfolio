@@ -9,3 +9,40 @@
   box-sizing: border-box;
   font-family: "Cormorant", serif;
 }
+
+/* NAVBAR */
+
+nav {
+  position: fixed;
+  background-color: rgb(57, 43, 136);
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav li {
+  height: 3em;
+  display: block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: block;
+  height: 100%;
+  line-height: 3em;
+  padding: 0 0.5em 0 0.5em;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: rgb(57, 43, 136);
+  transition: all 0.3s ease-in-out;
+}
