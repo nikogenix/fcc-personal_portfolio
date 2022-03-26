@@ -52,7 +52,7 @@ nav a:hover {
 /* Fix navbar links thanks to https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors */
 
 html {
-  scroll-padding-top: 48px;
+  scroll-padding-top: 47px;
 }
 
 /* MAIN */
