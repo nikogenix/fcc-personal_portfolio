@@ -181,3 +181,27 @@ footer {
   color: #fff;
   padding: 1.2em;
 }
+
+/* SIZE MODIFICATIONS FOR MOBILE */
+
+@media (max-width: 425px) {
+  #welcome header {
+    font-size: 4em;
+  }
+
+  #welcome p {
+    font-size: 1.25em;
+  }
+
+  #contact header {
+    font-size: 3em;
+  }
+
+  #contact p {
+    font-size: 1.25em;
+  }
+
+  #contact ul {
+    font-size: 0.7em;
+  }
+}
