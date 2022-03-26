@@ -193,6 +193,10 @@ footer {
     font-size: 1.25em;
   }
 
+  #projects header {
+    font-size: 3em;
+  }
+
   #contact header {
     font-size: 3em;
   }
