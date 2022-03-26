@@ -166,3 +166,18 @@ main {
 #contact a:visited {
   color: #fff;
 }
+
+/* FOOTER */
+
+footer {
+  color: rgb(10, 10, 10);
+  position: relative;
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: flex-end;
+  background-color: rgb(57, 43, 136);
+  color: #fff;
+  padding: 1.2em;
+}
