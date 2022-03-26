@@ -85,3 +85,40 @@ main {
   margin-left: 1em;
   margin-right: 1em;
 }
+
+/* PROJECTS */
+
+#projects header {
+  font-size: 4em;
+  text-align: center;
+  margin: 0.6em;
+}
+
+#projects img {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 850px;
+}
+
+.projects > div > h2 {
+  text-align: center;
+}
+
+.projects > div {
+  margin: 1em;
+}
