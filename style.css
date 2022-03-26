@@ -122,3 +122,47 @@ main {
 .projects > div {
   margin: 1em;
 }
+
+/* CONTACT */
+
+#contact {
+  height: calc(100vh - 48px);
+  background-color: rgb(27, 26, 37);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact header {
+  font-size: 4em;
+  text-align: center;
+  margin: 0.6em;
+}
+
+#contact p {
+  font-size: 2em;
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1.6em;
+}
+
+#contact ul {
+  list-style: none;
+  display: flex;
+}
+
+#contact li {
+  margin: 1em;
+  font-size: 1.5em;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+#contact a:visited {
+  color: #fff;
+}
